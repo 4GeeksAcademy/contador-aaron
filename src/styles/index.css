@@ -9,3 +9,73 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+  background: linear-gradient(to right, #f8f9fa, #e3f2fd);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  font-weight: 600;
+  color: #343a40;
+}
+
+input[type="number"] {
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.animated-btn {
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+.animated-btn:hover {
+  transform: scale(1.08);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.animated-btn:active {
+  transform: scale(0.95);
+}
+.animated-btn {
+  transition: all 0.3s ease;
+}
+
+.animated-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 255, 200, 0.5);
+}
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  margin: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.iniciar {
+  background-color: #28a745;
+}
+
+.reanudar {
+  background-color: #17a2b8;
+}
+
+.pausar {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.reiniciar {
+  background-color: #dc3545;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
